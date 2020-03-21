@@ -1,2 +1,2 @@
-# Python_lesson-1
-Couse of python
+# PythonCourse_lesson-1
+
