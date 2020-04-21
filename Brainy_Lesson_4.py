@@ -36,13 +36,6 @@ print (most_frequently_leatter(list_names))
 
 from datetime import datetime
 
-# txt = open('log', 'r', encoding='UTF=8')
-# text = {txt.read()}
-# # print(text)
-# for str in f:
-#     date_time = str.split('.')
-#     date_time = datetime.strptime(log_time[0], '%Y-%m-%d %H:%M:%S')
-#     date.append(log_time)
 
 
 f = open("log", "r")
