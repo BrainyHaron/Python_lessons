@@ -1,5 +1,5 @@
 from random import choices
-name = open('Names.txt', 'r', encoding='UTF-8')
+name = open('Names.txt', 'r', encoding='UTF=8')
 list_names = name.read().split()
 # print(list_names)
 def choice_name(names, length_list):
@@ -33,4 +33,30 @@ print('Light_2:')
 print(most_frequently_name(list_names))
 print('Light_3:')
 print (most_frequently_leatter(list_names))
+
+from datetime import datetime
+
+# txt = open('log', 'r', encoding='UTF=8')
+# text = {txt.read()}
+# # print(text)
+# for str in f:
+#     date_time = str.split('.')
+#     date_time = datetime.strptime(log_time[0], '%Y-%m-%d %H:%M:%S')
+#     date.append(log_time)
+
+
+f = open("log", "r")
+dates = []
+for line in f:
+   log_time = line.split(',')
+   log_time = datetime.strptime(log_time[0], '%Y-%m-%d %H:%M:%S')
+   dates.append(log_time)
+
+descend_dates = sorted(dates, reverse=True)
+latest_date = descend_dates[0]
+print(latest_date)
+
+
+
+
 
