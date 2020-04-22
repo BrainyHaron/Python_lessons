@@ -25,7 +25,7 @@ def most_frequently_leatter(names):
         counts.append(names.count(letters[i]))
     #print(letters) #проверка букв
     #print(counts) #проверка их количества
-    return letters[counts.index(max(counts))] #возвращаем букву, которая чаще всего встречалась
+    return letters[counts.index(min(counts))] #возвращаем букву, которая реже всего встречалась
 
 print('Light_1:')
 print(task_list)
