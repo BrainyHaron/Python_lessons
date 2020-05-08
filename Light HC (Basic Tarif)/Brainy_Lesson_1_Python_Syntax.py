@@ -45,14 +45,34 @@
 # print(n)
 
 
-print('\n''Task 6')
+# print('\n''Task 6')
+#
+# sum_list = 0
+# my_list = [56, 23, 67, 45, 67, 2, 47, 158, 31, 34, 78, 23, 78, 23, 89, 23, 36]
+# for x in my_list:
+#     if type(x) == int:
+#         sum_list += x
+# print(sum_list)
 
-sum_list = 0
-my_list = [56, 23, 67, 45, 67, 2, 47, 158, 31, 34, 78, 23, 78, 23, 89, 23, 36]
-for x in my_list:
-    if type(x) == int:
-        sum_list += x
-print(sum_list)
 
+# print('\n''Task 7')
+#
+# my_list = [56, 23, 67, 45, 67, 2, 47, 158, 31, 34, 78, 23, 78, 23, 89, 23, 36]
+# x = my_list[0]
+# for i in range(1, len(my_list)):
+#     if my_list[i] > x:
+#         x = my_list[i]
+# print(x)
+
+
+print('\n''Task 8')
+
+name_dict = {'Наташа': 2, "Алина": 3, "Марат": 15, "Лев": 1, "Валера": 0}
+print(name_dict)
+
+print('\n''Task 9')
+
+name_dict.update({"Рома": 4})
+print(name_dict)
 
 
