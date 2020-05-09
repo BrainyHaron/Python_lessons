@@ -127,12 +127,28 @@
 #         print(i)
 
 
-print('\n''Pro: Task 6')
+# print('\n''Pro: Task 6')
+#
+# sample_list = ["мандаринки", "киви", "лимон"]
+# n = int(input('Введите число: '))
+# new_list = []
+# for n in range(1, n+1):
+#     for i in range(len(sample_list)):
+#         new_list.append(sample_list[i]+'_'+str(n))
+# print(new_list)
 
-sample_list = ["мандаринки", "киви", "лимон"]
-n = int(input('Введите число: '))
-new_list = []
-for n in range(1, n+1):
-    for i in range(len(sample_list)):
-        new_list.append(sample_list[i]+'_'+str(n))
-print(new_list)
+
+# print('\n''Pro: Task 7')
+#
+# list_for_pro_task_2 = [35, 0.24, 3 + 4j, "котики", 0.45, (8, 9), "слоники", {"Мадрид": 3, 'Лондон':5}, 23498]
+# new_list = []
+# for i in range(len(list_for_pro_task_2)):
+#     if type(list_for_pro_task_2[i]) == dict:
+#         break
+# print(i)
+
+
+print('\n''Pro: Task 8')
+
+for i in range (1, 21):
+    print(i)
