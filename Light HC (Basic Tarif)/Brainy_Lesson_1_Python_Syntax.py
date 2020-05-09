@@ -64,15 +64,55 @@
 #         x = my_list[i]
 # print(x)
 
+#
+# print('\n''Task 8')
+#
+# name_dict = {'Наташа': 2, "Алина": 3, "Марат": 15, "Лев": 1, "Валера": 0}
+# print(name_dict)
+#
+# print('\n''Task 9')
+#
+# name_dict.update({"Рома": 4})
+# print(name_dict)
 
-print('\n''Task 8')
 
-name_dict = {'Наташа': 2, "Алина": 3, "Марат": 15, "Лев": 1, "Валера": 0}
-print(name_dict)
+# print('\n''Pro: Task 1')
+#
+# for i in range(6):
+#     if i != 4:
+#         print(i * '@ ')
+#
+#
+# print('\n''Pro: Task 2')
+#
+# for i in range(10):
+#     if i <= 5:
+#         print(i * (str(i) + ' '))
+#     else:
+#         print((10 - i) * (str(i) + ' '))
 
-print('\n''Task 9')
 
-name_dict.update({"Рома": 4})
-print(name_dict)
+# print('\n''Pro: Task 3')
+#
+# for i in range (11):
+#     print('7 * ' + (str(i)), '=', (i*7))
+import random
+from typing import Any, Union
 
+print('\n''Pro: Task 4')
 
+import random
+cube = list(range(-1, 8))
+random.shuffle(cube)
+d1 = cube.pop()
+d2 = cube.pop()
+print('Занчение кубика 1: %d' %d1, '\n' 'Занчение кубика 2: %d' %d2)
+count = d1 + d2
+if (1 <= d1 <= 6) and (1 <= d2 <= 6):
+    print('Сумма выпавших значений: %d' % count)
+    if count == 7 or count == 11:
+        print('Я победил!')
+    if count == 2 or count == 3 or count == 12:
+        print('Я проиграл!')
+else:
+    print("Ошибка! Значение на кубике 1 или 2 не входит в интервал [1, 6]")
